@@ -30,10 +30,12 @@ dependencies:
   equatable: ^1.0.0
   meta: ^1.1.6
   font_awesome_flutter: ^8.4.0
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
+  dio: ^3.0.3
+  intl: ^0.16.0
+  url_launcher: ^5.2.0
+  cached_network_image: ^2.0.0-rc
+  flutter_stetho: ^0.5.0
+  json_serializable: ^3.2.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
