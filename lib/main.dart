@@ -33,6 +33,9 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      color: Colors.black,
+      theme:
+          ThemeData(backgroundColor: Colors.amber, primarySwatch: Colors.blue),
       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
         builder: (context, state) {
           if (state is Uninitialized)
